@@ -16,19 +16,25 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
     ```
 
+## Shortcuts made
+
+Agentic AI was used for the tests and for quick scaffolding of some of the components before I went through the changes in order to clean, polish and improve them up in order to make them more readable and reusable. This was due to the tight deadline as I wanted the application to be as pristine as possible.
+
 ## What you'd improve with more time
 
-Spend more time on the layout and visual design as I was pressed by the tight deadline.
+Spend more time on the UI/UX, layout and visual design as I was pressed by the tight deadline.
 
 Avoid hardcoding text and instead have key-value pairs in another file and point to the keys
 
-Use a styling library but stuck to StyleSheet in order to scaffold everything as quickly as I could
+Use a styling library - I used StyleSheet in order to scaffold everything as quickly as I could
 
 Create reusable text components
 
 Create better looking loading indicator component
 
 Use actual icons
+
+Change the default splash screen and app icon to custom designs
 
 ## Things to take into consideration
 
