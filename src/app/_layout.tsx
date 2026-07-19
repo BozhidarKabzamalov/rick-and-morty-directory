@@ -1,0 +1,20 @@
+import { AppProviders } from "@/providers/AppProviders";
+import { Stack } from "expo-router";
+import { StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+export default function RootLayout() {
+	return (
+		<AppProviders>
+			<SafeAreaView edges={["top"]} style={styles.container}>
+				<Stack screenOptions={{ headerShown: false }} />
+			</SafeAreaView>
+		</AppProviders>
+	);
+}
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+	},
+});
